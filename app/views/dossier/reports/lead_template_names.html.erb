@@ -1,0 +1,14 @@
+
+<%= form_for OpenStruct.new(report.options), as: :options, url: url_for, html: {method: :get} do |f| %>
+  <div>
+    <%= f.label :created_at_greater_than %>
+    <%= f.text_field :created_at_greater_than %>
+  </div>
+  <div>
+    <%= f.label :name_like %>
+    <%= f.text_field :name_like %>
+  </div>
+  <%= f.submit 'Submit' %>
+<% end %>
+
+<%= render template: 'dossier/reports/show', locals: {report: report} %>

@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+table.dossier {
+  width: 100%;
+  border-collapse:collapse;
+  th, td {
+    border:solid #aaa 1px;
+  }
+  thead {
+    th {
+      text-align:left;
+      background:#eee;
+    }
+  }
+  tbody {
+    tr:hover td {
+      background:#ffd;
+    }
+    td {
+      font-size: 12px;
+    }
+  }
+}
