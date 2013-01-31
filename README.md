@@ -1,0 +1,3 @@
+- `bundle`
+- `rails s`
+- open [http://localhost:3000/reports/lead_template_names](http://localhost:3000/reports/lead_template_names)
